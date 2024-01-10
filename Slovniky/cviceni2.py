@@ -6,7 +6,7 @@ slovnik3 = {
 
 
 }
-slovnik3.copy(dict1)
+slovnik3.update(dict1)
 slovnik3.update(dict2)
 
 print(slovnik3)
