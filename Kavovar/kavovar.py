@@ -35,9 +35,8 @@ resources = {
     "coffee": 150,
     }
 
-def pocet_ingredienci(MENU):
-    x = MENU.get('espresso','latte')
+
+def display_menu(MENU):
+    x = MENU.fromkeys('latte')
     print(x)
-pocet_ingredienci(MENU)
-
-
+display_menu(MENU)
